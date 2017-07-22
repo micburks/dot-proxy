@@ -1,0 +1,37 @@
+{
+  "name": "dot-proxy",
+  "version": "1.0.0",
+  "description": "Operate on nested properties via dot syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micburks/dot-proxy.git"
+  },
+  "keywords": [
+    "object",
+    "proxy",
+    "dot",
+    "syntax",
+    "properties",
+    "nested",
+    "get",
+    "set",
+    "delete",
+    "has"
+  ],
+  "author": "Mickey Burks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micburks/dot-proxy/issues"
+  },
+  "homepage": "https://github.com/micburks/dot-proxy#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
