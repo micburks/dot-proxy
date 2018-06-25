@@ -1,10 +1,10 @@
 {
   "name": "dot-proxy",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Operate on nested properties via dot syntax",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "dist"
   ],
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
   }
 }
